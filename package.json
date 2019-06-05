@@ -1,14 +1,17 @@
 {
-  "name": "vue-lite-component-loader",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "cheerio": "^1.0.0-rc.3"
-  }
+    "name": "vue-block-lite-component",
+    "version": "0.1.0",
+    "description": "",
+    "main": "index.js",
+    "author": "",
+    "license": "MIT",
+    "files": ["index.js", "README.md", "yarn.lock", "package.json"],
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.3",
+        "loader-utils": "^1.2.3"
+    },
+    "peerDependencies": {
+        "@vue/component-compiler-utils": ">=v2.6.0 || >=v3.0.0",
+        "vue-template-compiler": ">= 2.6"
+    }
 }
